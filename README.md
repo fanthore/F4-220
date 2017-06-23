@@ -14,9 +14,9 @@ Please note that this youtuber uses a VGA cable to install an OS (around 2:00). 
 
 ## Hardware upgrades
 
-⋅⋅* Celeron J1800  ( http://ark.intel.com/products/78866/Intel-Celeron-Processor-J1800-1M-Cache-up-to-2_58-GHz ) *
-⋅⋅* 2G RAM (upgradable to 4G) *
-⋅⋅* Boot on 8G USB (upgraded to 16G SSD and 3.2 USB to SATA cable) *
+* Celeron J1800  ( http://ark.intel.com/products/78866/Intel-Celeron-Processor-J1800-1M-Cache-up-to-2_58-GHz ) 
+* 2G RAM (upgradable to 4G) 
+* Boot on 8G USB (upgraded to 16G SSD and 3.2 USB to SATA cable) 
 
 OS is stored on an 8G bootable USB key as a primary drive. I replaced it by a more sturdy SSD disk using an USB to SATA cable. OMV people insist on not installing on an USB stick (which make totally sense). Also, SSDs are inexpensive and fast these days... 
 
