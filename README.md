@@ -1,4 +1,10 @@
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+- [F4-220](#f4-220)
+  * [Introcution](#introcution)
+  * [How to open your F4-220](#how-to-open-your-f4-220)
+  * [Hardware upgrades](#hardware-upgrades)
+  * [What distro to install](#what-distro-to-install)
+  * [OMV Installation and configuration](#omv-installation-and-configuration)
+  * [More links about OMV disk/partition to RAID array](#more-links-about-omv-disk-partition-to-raid-array)
 # F4-220
 All info about hacking a TerraMaster F4-220 to run OpenMediaVault (OMV)
 Aim : take an OK NAS enclosure, upgrade it and add some Debian to make it awsome
