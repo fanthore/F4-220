@@ -1,9 +1,10 @@
 # F4-220
 All info about hacking a TerraMaster F4-220 to run OpenMediaVault (OMV)
+Aim : take an OK NAS enclosure, upgrade it and add some Debian to make it awsome
 
 ## Introcution
 
-I was offered a Terramaster F4-220 last christmas. I installed TOS (TerraMaster OS) but it is garbage. Very few fonctionalities, only half a dozen available softwares
+I was offered a Terramaster F4-220 last christmas. I installed TOS (TerraMaster OS) but it is garbage. Very few fonctionalities, only half a dozen available softwares. So I looked around to make it better.
 
 ## How to open your F4-220
 
@@ -13,11 +14,11 @@ Please note that this youtuber uses a VGA cable to install an OS (around 2:00). 
 
 ## Hardware upgrades
 
-Celeron J1800
-2G RAM
-Boot on USB
+. Celeron J1800  ( http://ark.intel.com/products/78866/Intel-Celeron-Processor-J1800-1M-Cache-up-to-2_58-GHz ) 
+. 2G RAM (upgradable to 4G)
+. Boot on 8G USB (upgraded to 16G SSD and 3.2 USB to SATA cable) 
 
-OS is stored on an 8G bootable USB key as a primary drive. I replaced it by a more sturdy SSD disk using an USB to SATA cable
+OS is stored on an 8G bootable USB key as a primary drive. I replaced it by a more sturdy SSD disk using an USB to SATA cable. OMV people insist on not installing on an USB stick (which make totally sense). Also, SSDs are inexpensive and fast these days... 
 
 F4-220 NASes have 2G of soldered RAM but once opened, you can easilly upgrade RAM to 4G with (TerraMaster sales them on amazon using part number KBM20056)
 
