@@ -1,5 +1,5 @@
 - [F4-220](#f4-220)
-  * [Introcution](#introcution)
+  * [Introduction](#introcution)
   * [How to open your F4-220](#how-to-open-your-f4-220)
   * [Hardware upgrades](#hardware-upgrades)
   * [What distro to install](#what-distro-to-install)
@@ -16,6 +16,7 @@ I was offered a Terramaster F4-220 last christmas. I installed TOS (TerraMaster 
 ## How to open your F4-220
 
 I won't spend too long on this as other people have done videos about it. Particularilly this one (hardware here is a 2 disks F2-220 but it is really close to the F4) : https://www.youtube.com/watch?v=fF2DHxoc83Q 
+or this one for RAM upgrade https://www.youtube.com/watch?v=G3kNSVDVhMM
 
 Please note that this youtuber uses a VGA cable to install an OS (around 2:00). I won't do the same as I don't own such cable.
 
@@ -37,6 +38,7 @@ http://openmediavault.org is pretty good for a home setup. Dozens of available s
 The big caveat for me was to do a headless install as I do not have a VGA cable. Forunatelly there are people who have already done this :
 
 http://forum.openmediavault.org/index.php/Thread/3453-Installing-OMV-w-o-keyboard-and-monitor-using-VirtualBox/
+
 
 ## OMV Installation and configuration
 http://wiki.openmediavault.org/index.php?title=Installation
