@@ -39,6 +39,14 @@ The big caveat for me was to do a headless install as I do not have a VGA cable.
 
 http://forum.openmediavault.org/index.php/Thread/3453-Installing-OMV-w-o-keyboard-and-monitor-using-VirtualBox/
 
+**IMPORTANT** If you are going to use the above guide, please note, due to recent changes in how networking in handled in linux, in OMV 4 or higher the networking interface will be detected as ENS33 and you will not get an ip when you attempt to move the usb back to the nas as the networking config will not attempt to request an ip address on eth0 (the local adapter)
+
+Kindly see the guide below for information on how to resolve this. after making the change, you will need to reboot the VM and run OMV-firstaid to reset the networking config.
+https://www.itzgeek.com/how-tos/mini-howtos/change-default-network-name-ens33-to-old-eth0-on-ubuntu-16-04.html
+
+In my case, I used vmware and mapped the usb drive as a physical device, ran the install, made the above change, and plugged the drive directly into the hardware and it now works, you may need to run omv-firstaid again once you boot into hardware if you get an error when trying to load the webui.
+
+Please also note, there is a known kernel issue with baytrail devices that cause the device to hang on OMV3 as a workaroud you can disable the cstate C1 or use OMV 4 which has a kernal patch that resolves this. (please note, this is only applicable to the baytrail devices that terramaster makes)
 
 ## OMV Installation and configuration
 http://wiki.openmediavault.org/index.php?title=Installation
