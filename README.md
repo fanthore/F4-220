@@ -49,7 +49,7 @@ In my case, I used vmware and mapped the usb drive as a physical device, ran the
 Please also note, there is a known kernel issue with baytrail devices that cause the device to hang on OMV3 as a workaroud you can disable the cstate C1 or use OMV 4 which has a kernal patch that resolves this. (please note, this is only applicable to the baytrail devices that terramaster makes)
 
 ## OMV Installation and configuration
-http://wiki.openmediavault.org/index.php?title=Installation
+https://openmediavault.readthedocs.io/en/latest/installation/index.html
 
 
 ## More links about OMV disk/partition to RAID array
