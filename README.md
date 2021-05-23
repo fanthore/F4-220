@@ -35,7 +35,7 @@ F4-220 NASes have 2G of soldered RAM but once opened, you can easilly upgrade RA
 
 http://openmediavault.org is pretty good for a home setup. Dozens of available softwares, good forums and support. 
 
-The big caveat for me was to do a headless install as I do not have a VGA cable. Forunatelly there are people who have already done this :
+The big caveat for me was to do a headless install as I do not have a VGA cable. Fortunately there are people who have already done this :
 
 http://forum.openmediavault.org/index.php/Thread/3453-Installing-OMV-w-o-keyboard-and-monitor-using-VirtualBox/
 
