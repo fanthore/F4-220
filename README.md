@@ -7,9 +7,9 @@
   * [More links about OMV disk/partition to RAID array](#more-links-about-omv-disk-partition-to-raid-array)
 # F4-220
 All info about hacking a TerraMaster F4-220 to run OpenMediaVault (OMV)
-Aim : take an OK NAS enclosure, upgrade it and add some Debian to make it awsome
+Aim : take an OK NAS enclosure, upgrade it and add some Debian to make it awesome
 
-## Introcution
+## Introduction
 
 I was offered a Terramaster F4-220 last christmas. I installed TOS (TerraMaster OS) but it is garbage. Very few fonctionalities, only half a dozen available softwares. So I looked around to make it better.
 
@@ -28,7 +28,7 @@ Please note that this youtuber uses a VGA cable to install an OS (around 2:00). 
 
 OS is stored on an 8G bootable USB key as a primary drive. I replaced it by a more sturdy SSD disk using an USB to SATA cable. OMV people insist on not installing on an USB stick (which make totally sense). Also, SSDs are inexpensive and fast these days... 
 
-F4-220 NASes have 2G of soldered RAM but once opened, you can easilly upgrade RAM to 4G with (TerraMaster sales them on amazon using part number KBM20056)
+F4-220 NASes have 2G of soldered RAM but once opened, you can easilly upgrade RAM to 4G with (TerraMaster sells them on amazon using part number KBM20056)
 
 
 ## What distro to install
